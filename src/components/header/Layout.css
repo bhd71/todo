@@ -1,0 +1,48 @@
+.layout_display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    align-items: center;
+}
+
+.layout_display a {
+    text-decoration: none;
+}
+
+.neonText {
+    color: #db3eb1;
+    text-shadow: 0 0 75px #db3eb1,
+    0 0 20px #db3eb1,
+    0 0 40px #db3eb1,
+    0 0 60px purple,
+    0 0 82px purple,
+    0 0 100px purple,
+    0 0 200px purple,
+    0 0 300px purple;
+}
+
+.layout_title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.button {
+    color: #db3eb1;
+    border: 3px solid #db3eb1;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    font-weight: initial;
+    cursor: pointer;
+    filter: drop-shadow(0 0 8px #db3eb1) drop-shadow(0 0 25px #db3eb1) contrast(2) brightness(2);
+    transition: .5s;
+}
+
+.button:hover {
+    font-size: 1.25rem;
+    color: white;
+    background-color: #db3eb1;
+    filter: drop-shadow(0 0 10px #db3eb1) contrast(2) brightness(2);
+}

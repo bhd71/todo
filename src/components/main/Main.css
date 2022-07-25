@@ -1,0 +1,22 @@
+main {
+    height: 60vh;
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.main_border {
+    border-right: #db3eb1 3px solid;
+}
+
+.main_title {
+    font-size: 1.3rem;
+    color: #db3eb1;
+    text-shadow: 0 0 50px #db3eb1,
+    0 0 20px #db3eb1,
+    0 0 40px #db3eb1,
+    0 0 50px purple,
+    0 0 70px purple,
+    0 0 100px purple
+}
